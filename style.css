@@ -6,34 +6,21 @@ body{
     font-family: 'Roboto', sans-serif;
     background-color:#f2ebff;
 }
-/* nav{
-    top:0%;
-    display: flex;
-    justify-content: space-between;
-    padding:20px;
-    width: 97.5vw;
-    position: fixed;
-    background-color: #925eed;
-}
-.nav-right{
-    padding-right:10px
-} */
+
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #333; /* Adjust the background color as needed */
+    background-color: #925eed; 
     padding: 10px 20px;
-    color: #fff; /* Text color */
+    color: #fff; 
 }
 
-/* Style for the left section of the navigation */
 .nav-left {
     font-size: 1.5rem;
     font-weight: bold;
 }
 
-/* Style for the center section of the navigation */
 .nav-center {
     display: flex;
     gap: 20px;
@@ -44,24 +31,22 @@ nav {
     font-size: 1rem;
 }
 
-/* Style for the right section of the navigation (search bar) */
 .nav-right {
     display: flex;
     align-items: center;
 }
 
-/* Style for the search bar (assuming an input element) */
 .nav-right input[type="text"] {
     padding: 5px 10px;
     border: none;
     border-radius: 5px;
-    background-color: #555; /* Adjust the background color as needed */
-    color: #fff; /* Text color */
+    background-color: #555; 
+    color: #fff; 
     transition: background-color 0.3s ease;
 }
 
 .nav-right input[type="text"]:focus {
-    background-color: #777; /* Adjust the background color when focused */
+    background-color: #777; 
 }
 main{
     margin:40px 20px 20px 20px;
