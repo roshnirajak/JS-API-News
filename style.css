@@ -4,21 +4,67 @@
 }
 body{
     font-family: 'Roboto', sans-serif;
+    background-color:#f2ebff;
 }
-nav{
+/* nav{
     top:0%;
     display: flex;
     justify-content: space-between;
     padding:20px;
     width: 97.5vw;
     position: fixed;
-    background-color: coral;
+    background-color: #925eed;
 }
 .nav-right{
     padding-right:10px
+} */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333; /* Adjust the background color as needed */
+    padding: 10px 20px;
+    color: #fff; /* Text color */
+}
+
+/* Style for the left section of the navigation */
+.nav-left {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Style for the center section of the navigation */
+.nav-center {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-center span {
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+/* Style for the right section of the navigation (search bar) */
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+
+/* Style for the search bar (assuming an input element) */
+.nav-right input[type="text"] {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #555; /* Adjust the background color as needed */
+    color: #fff; /* Text color */
+    transition: background-color 0.3s ease;
+}
+
+.nav-right input[type="text"]:focus {
+    background-color: #777; /* Adjust the background color when focused */
 }
 main{
-    margin:100px 20px 20px 20px;
+    margin:40px 20px 20px 20px;
     padding-block: 20px;
 }
 .flex {
@@ -32,6 +78,11 @@ main{
     overflow: hidden;
 }
 main .card{
+    border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 10px;
+        background-color: #fff;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     width:350px;
 }
 main .card .text{
